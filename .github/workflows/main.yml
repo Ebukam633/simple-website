@@ -1,5 +1,8 @@
 name: Hello-class-27
-on: push
+on: 
+  push:
+    branches: 
+      - feature_class_25
 jobs:
   my-job:
    runs-on: ubuntu-latest
@@ -8,4 +11,4 @@ jobs:
        run: echo "Hello World"
 
      - name: Step 2 - Sleep 10
-       run: sleep 10
+       run: sleep 30
