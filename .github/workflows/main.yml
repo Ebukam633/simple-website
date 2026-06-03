@@ -1,0 +1,11 @@
+name: Hello-class-27
+on: push
+jobs:
+  my-job:
+   runs-on: ubuntu-latest
+   steps:
+     - name: Step 1 - Hello world
+       run: echo "Hello World"
+
+     - name: Step 2 - Sleep 10
+       run: sleep 10
