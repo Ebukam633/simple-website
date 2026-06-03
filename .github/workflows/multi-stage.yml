@@ -5,10 +5,10 @@ jobs:
   multi_stages_ci:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6.0.3
-      - name: Build
-        run: |
+       - name: Checkout
+         uses: actions/checkout@v6.0.3
+       - name: Build
+         run: |
            sleep 10
            echo "sleep 30"
        - name: Tag
