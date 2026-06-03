@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v6.0.3
 
       - name: Build
-         run: |
+        run: |
            sleep 10
            echo "sleep 30"
        - name: Tag
